@@ -1,4 +1,3 @@
-for(int x:v)
-    {
-        cout<<x<<" ";
+print_forward(head);
+    cout<<endl;
     
