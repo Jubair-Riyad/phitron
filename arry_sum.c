@@ -8,18 +8,12 @@ int main ()
     {
         scanf("%d", &ara[i]);
     }
-    int x,v;
-    scanf("%d %d", &x, &v);
+    int sum=0;
     for (int i = 0; i <n; i++)
     {
-        scanf("%d", &ara[x]);
-        ara[x]=v;       
-
+         sum = sum+ara[i];        
     }
-    for (int i =n-1; i>=0; i--)
-    {
-        printf("%d ", ara[i]);
-    }
+    printf("%d ", sum);
     
     
     return 0;

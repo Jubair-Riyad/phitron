@@ -1,15 +1,25 @@
 #include<stdio.h>
 int main ()
 {
-    int a, b;
-    scanf("%d %d", &a, &b);
-    if (a%b==0 || b%a==0)
+    int n;
+    scanf("%d", &n);
+    if (n<=0)
     {
-        printf("Multiples");
+        for (int i = n; i <=1; i++)
+        {
+            printf("%d ", i);
+        }
+        
     }
-    else
+    if (n>0)
     {
-        printf("No Multiples");
+        for (int i = 1; i <=n; i++)
+        {
+            printf("%d ", i);
+        }
+        
     }
+    
+    
     return 0;
 }
