@@ -1,5 +1,8 @@
-scanf("%c", &x);
-    // if (x>='a'&& x<='z')
+if (flag=1)
     // {
-    //     // x=x+'';
+    //     printf("YES");
+    // }
+    // else
+    // {
+    //     printf("NO");
     // }
