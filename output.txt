@@ -1,6 +1,1 @@
-10 20 30 50 40 60 90 80 70 100 
-Leaf Node:100 
-Leaf Node:80 
-Leaf Node:70 
-Total: 3
-Height: 5
+YES
